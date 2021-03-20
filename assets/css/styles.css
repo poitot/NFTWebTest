@@ -1,0 +1,59 @@
+.nav-link {
+  margin-right: 8rem;
+  margin-left: 3rem;
+  color: gray !important;
+  text-decoration: solid;
+}
+
+
+.navbar {
+  background-color: rgba(0, 255, 255, 0.61) ;
+
+}
+
+.navbar-nav {
+  width: auto;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+}
+
+.navbar-text {
+  color: gray !important;
+}
+
+.brand-text {
+  padding-left: 0.5rem;
+  font-size: auto;
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+#cara-img {
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+}
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.side-bar {
+  background-color: aliceblue;
+  height: 100%;
+  width: 200px;
+  margin-top: 2rem;
+}
+
+
+
+.main {
+  width: 60%;
+  margin-left: 20%;
+}
