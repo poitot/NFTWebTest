@@ -65,8 +65,14 @@ footer {
 }
 
 .main {
-  width: 60%;
   margin-left: 12%;
   margin-right: 12%;
   height: 87.5rem;
+}
+
+.jumbotron {
+  background-color: gainsboro;
+  height: 25rem;
+  margin-top: 2rem;
+  font-weight: 100;
 }
