@@ -71,8 +71,8 @@ footer {
 
 .jumbotron {
   background-color: gainsboro;
-  height: 25rem;
-  margin-top: 2rem;
+  height: 8rem;
+  margin-top: .5rem;
   font-weight: 100;
   text-align: center;
 }
