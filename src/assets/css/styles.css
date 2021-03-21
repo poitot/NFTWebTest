@@ -1,0 +1,83 @@
+.nav-link {
+  margin-right: 8rem;
+  margin-left: 3rem;
+  color: gray !important;
+  text-decoration: solid;
+}
+
+
+.navbar {
+  background-color: rgba(0, 255, 255, 0.61) ;
+  border: .5rem;
+  border-radius: .5rem;
+}
+
+.navbar-nav {
+  width: auto;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  margin-top: 1.5rem
+}
+
+.navbar-text {
+  color: gray !important;
+}
+
+.brand-text {
+  padding-left: 0.5rem;
+  font-size: auto;
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+#cara-img {
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+}
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.side-bar {
+  height: 100%;
+  width: 200px;
+  margin-top: 2rem;
+}
+
+img {
+  margin-bottom: 2rem;
+  border: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.main {
+  margin-left: 12%;
+  margin-right: 12%;
+  height: 87.5rem;
+}
+
+.jumbotron {
+  background-color: gainsboro;
+  height: 8rem;
+  margin-top: .5rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+.social-bar {
+  margin-inline: 47.5%;
+}
