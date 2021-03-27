@@ -30,54 +30,51 @@
   font-size: auto;
 }
 
-.container {
+#container {
   padding-top: 2rem;
+  max-width: 50%;
+  width: auto;
+
+
 }
 
-#cara-img {
-  height: 300px;
-  width: 200px;
-  overflow: hidden;
+.container {
+  margin-left: 0px;
 }
 
 
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+
 }
 
-.side-bar {
-  height: 100%;
-  width: 200px;
-  margin-top: 2rem;
-}
-
-img {
-  margin-bottom: 2rem;
-  border: 10px;
-  border-radius: 10px;
-}
 
 footer {
   width: 40%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .main {
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   height: 87.5rem;
+  max-height: 100;
 }
 
-.jumbotron {
-  background-color: gainsboro;
-  height: 8rem;
-  margin-top: .5rem;
-  font-weight: 100;
-  text-align: center;
+.card {
+
+  max-width: 35vw !important;
+  width: auto !important;
 }
 
 
 .social-bar {
-  margin-inline: 47.5%;
+  margin-left: 20vw;
+}
+
+@media (max-width: 768px) {
+  .side-bar {
+    display: none !important;
+  }
 }

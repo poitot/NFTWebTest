@@ -64,20 +64,53 @@ footer {
 }
 
 .main {
-  margin-left: 12%;
-  margin-right: 12%;
-  height: 87.5rem;
+  display: flow-root;
+
+  width: auto;
 }
 
 .jumbotron {
   background-color: gainsboro;
-  height: 8rem;
   margin-top: .5rem;
   font-weight: 100;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 
 .social-bar {
-  margin-inline: 47.5%;
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+
+.card {
+  width: auto;
+
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 600px) {
+  .side-bar {
+    display: none !important;
+
+  }
+
+  .main {
+    width: auto;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .col {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: max-content;
+
+  }
+
+
 }
